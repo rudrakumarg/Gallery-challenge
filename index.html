@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery Challenge</title>
+	<script src="js/app.js"></script>
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<h1>Gallery</h1>
+	<div id="imageContainer"></div>
+
+	<div id="myModal" class="modal">
+		
+		<span class="close">Close</span>
+		<img class="loading" id="modalImg" src="" alt="">
+	  </div>
+
+	<script>
+		window.init = new GALLERY.INIT();
+			window.init.preload();
+		</script>
+</body>
+</html>
